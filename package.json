@@ -1,0 +1,30 @@
+{
+  "name": "st-schema-simple-example",
+  "version": "1.0.0",
+  "description": "Simple ST Schema example that creates two power supplies with custom capabilities and a multi-component outlet",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "SmartThings",
+    "st-schema",
+    "smartthings-schema",
+    "IoT"
+  ],
+  "author": "Jody Albritton",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "st-schema": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartThingsCommunity/st-schema-simple-example-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SmartThingsCommunity/st-schema-simple-example-js/issues"
+  },
+  "homepage": "https://github.com/SmartThingsCommunity/st-schema-simple-example-js#readme"
+}
